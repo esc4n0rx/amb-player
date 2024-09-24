@@ -1,19 +1,18 @@
 
 # Ambilight Video Player
 
-Este projeto é um **player de vídeo com efeito Ambilight**, onde o fundo da página muda dinamicamente de acordo com as cores predominantes do vídeo em reprodução. O usuário pode escolher qual vídeo assistir a partir de uma lista de opções, e o vídeo será exibido com um efeito de luz ambiente adaptado.
+Esse projeto é um player de vídeo com efeito Ambilight, onde o fundo da página muda automaticamente com as cores dominantes do vídeo que tá rolando. O usuário pode escolher qual vídeo assistir de uma lista e o efeito de luz ambiente vai acompanhar o vídeo.
 
 ## Funcionalidades
 
-- **Escolha de Vídeo**: Ao carregar a página, o usuário escolhe entre diferentes vídeos disponíveis.
-- **Efeito Ambilight**: As cores do fundo da página se adaptam em tempo real com base nas cores do vídeo em reprodução.
-- **Estilização Responsiva**: O player está estilizado com bordas arredondadas e ajusta dinamicamente o conteúdo do vídeo sem cortes.
+- **Escolha de Vídeo**: Quando a página carrega, o usuário escolhe entre os vídeos disponíveis.
+- **Efeito Ambilight**: As cores do fundo se ajustam em tempo real com as cores do vídeo que tá sendo exibido.
+- **Estilo Responsivo**: O player tem bordas arredondadas e ajusta o vídeo sem cortar nada, se adaptando a diferentes telas.
 
 ## Tecnologias Utilizadas
 
-- **React**: Biblioteca JavaScript para criação de interfaces de usuário.
-- **CSS**: Utilizado para estilizar o player e o modal de seleção de vídeo.
-- **HTML5 Video**: Tag para reprodução de vídeos.
+- **React**
+- **CSS**
 
 ## Como Executar o Projeto
 
@@ -49,8 +48,8 @@ Este projeto é um **player de vídeo com efeito Ambilight**, onde o fundo da p�
 
 ## Como Funciona o Efeito Ambilight
 
-- O player captura as cores dominantes do vídeo usando um `canvas` oculto que extrai as cores em tempo real.
-- O fundo da página muda suavemente conforme o vídeo se reproduz, oferecendo uma experiência de luz ambiente envolvente.
+- O player pega as cores principais do vídeo usando um *canvas* escondido que faz a extração em tempo real.
+- O fundo da página vai mudando de forma suave enquanto o vídeo rola, criando um efeito de luz ambiente bem imersivo.
 
 ## Estrutura do Projeto
 
